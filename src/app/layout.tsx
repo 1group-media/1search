@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '1search · Buscador y Comparador de Precios en Anaco',
+  metadataBase: new URL('https://search.1group.media'),
+  title: '1search · Buscador y Comparador Hiperlocal (search.1group.media)',
   description: 'Compara precios y disponibilidad de repuestos, licores, talleres y mandados en Anaco, Venezuela',
 };
 
