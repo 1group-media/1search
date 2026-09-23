@@ -108,7 +108,9 @@ export class SearchRepository {
         stockQuantity: p.stock_quantity,
         partNumber: p.part_number,
         imageEmoji: p.image_emoji || '📦',
-        actionUrl: `http://localhost:3001/${p.store_slug}`,
+        actionUrl: process.env.NEXT_PUBLIC_COMMERCE_URL 
+          ? `${process.env.NEXT_PUBLIC_COMMERCE_URL}/${p.store_slug}` 
+          : `https://shop.1group.media/${p.store_slug}`,
         actionLabel: 'Comprar & Delivery',
         deliveryOption: 'Moto en 25 min (1delivery)'
       });
@@ -134,7 +136,9 @@ export class SearchRepository {
               inStock: true,
               stockQuantity: 1,
               imageEmoji: '🛠️',
-              actionUrl: `http://localhost:3002/${slug}`,
+              actionUrl: process.env.NEXT_PUBLIC_SERVICE_URL 
+                ? `${process.env.NEXT_PUBLIC_SERVICE_URL}/${slug}` 
+                : `https://service.1group.media/${slug}`,
               actionLabel: 'Ver Taller & Cotizar',
               deliveryOption: 'Recepción en Taller'
             });

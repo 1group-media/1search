@@ -127,7 +127,7 @@ export default function SearchDiscoveryPage() {
             <p className="text-sm font-semibold mb-1">No encontramos resultados para tu búsqueda.</p>
             <p className="text-xs text-slate-500">¿Necesitas una pieza difícil? Pide un mandado urgente y un motorizado la busca en Anaco.</p>
             <a
-              href="http://localhost:3003"
+              href="https://delivery.1group.media"
               className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-amber-500 text-black text-xs font-bold rounded-xl"
             >
               <Bike className="w-4 h-4" />
@@ -186,19 +186,19 @@ export default function SearchDiscoveryPage() {
       {/* Super App Persistent Footer Rail */}
       <nav className="fixed bottom-0 inset-x-0 bg-slate-900/90 backdrop-blur border-t border-slate-800 py-2.5 px-4 z-40">
         <div className="max-w-md mx-auto grid grid-cols-4 gap-1 text-center">
-          <a href="http://localhost:3000" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
+          <a href="https://tab.1group.media" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
             <span className="text-base">🍻</span>
             <span className="text-[10px] font-bold mt-0.5">1tab</span>
           </a>
-          <a href="http://localhost:3001" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
+          <a href="https://shop.1group.media" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
             <span className="text-base">📦</span>
             <span className="text-[10px] font-bold mt-0.5">1commerce</span>
           </a>
-          <a href="http://localhost:3002" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
+          <a href="https://service.1group.media" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
             <span className="text-base">🛠️</span>
             <span className="text-[10px] font-bold mt-0.5">1service</span>
           </a>
-          <a href="http://localhost:3003" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
+          <a href="https://delivery.1group.media" className="flex flex-col items-center py-1 text-slate-400 hover:text-amber-400 transition">
             <span className="text-base">⚡</span>
             <span className="text-[10px] font-bold mt-0.5">1delivery</span>
           </a>
